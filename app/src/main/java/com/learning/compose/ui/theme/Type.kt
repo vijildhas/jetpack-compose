@@ -1,4 +1,4 @@
-package com.learning.compose.ui.theme
+package com.example.democompose.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
