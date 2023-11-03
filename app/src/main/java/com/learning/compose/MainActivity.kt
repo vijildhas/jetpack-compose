@@ -2,7 +2,6 @@ package com.learning.compose
 
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
@@ -44,9 +43,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.democompose.ui.theme.ColorWhite
-import com.example.democompose.ui.theme.ComposeTheme
-import com.example.democompose.ui.theme.Purple40
+import com.learning.compose.ui.theme.ColorWhite
+import com.learning.compose.ui.theme.ComposeTheme
+import com.learning.compose.ui.theme.Purple40
 
 @OptIn(ExperimentalMaterial3Api::class)
 class MainActivity : ComponentActivity() {

@@ -1,4 +1,4 @@
-package com.example.democompose.ui.theme
+package com.learning.compose.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -14,17 +14,20 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
+import com.example.democompose.ui.theme.Typography
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
     secondary = PurpleGrey80,
-    tertiary = Pink80
+    tertiary = Pink80,
+    surface = VeryLightGrey
 )
 
 private val LightColorScheme = lightColorScheme(
     primary = Purple40,
     secondary = PurpleGrey40,
-    tertiary = Pink40
+    tertiary = Pink40,
+    surface = VeryLightGrey
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
@@ -65,6 +68,7 @@ fun ComposeTheme(
     MaterialTheme(
         colorScheme = colorScheme,
         typography = Typography,
-        content = content
+        content = content,
+        shapes = Shapes
     )
 }
